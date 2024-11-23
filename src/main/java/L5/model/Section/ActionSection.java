@@ -13,6 +13,9 @@ public class ActionSection extends Section{
         return SectionType.MUSICAL_SECTION;
     }
 
+
+
+
     @Override
     public void putFilmOnSection(Film film) {
         super.log("Кладем фильм в отдел боевики");
