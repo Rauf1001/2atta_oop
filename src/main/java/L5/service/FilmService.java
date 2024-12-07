@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public class FilmService {
 
 
-    public static boolean areFilmNamesEqual(String filmName1, String filmName2) {
+    public static boolean areFilmNamesEqual(String filmName1, String filmName2) throws InvalidNameException {
         if (!Objects.equals(filmName1, filmName2)) {
             throw new InvalidNameException("Названия фильмов не совпадают: " + filmName1 + " и " + filmName2);
         }
