@@ -67,7 +67,7 @@ public class PersonComparatorTest {
     }
 
     @Test
-    @DisplayName("Сортировка только по количеству страниц и автору")
+    @DisplayName("Сортировка только по Person and Place")
     void sortBookByAddressAndPerson(){
         var places = new ArrayList<Place>();
         places.add(new Place()
